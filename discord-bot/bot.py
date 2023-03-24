@@ -20,7 +20,7 @@ role_old = id
 role_eternalold = id
 role_pseudoowner = id
 
-channel_gpt = 1054106565663264809
+channel_gpt = id
 
 # BOT
 bot = discord.Bot(intents=discord.Intents.all())
