@@ -6,6 +6,7 @@ from sys import exit
 import openai
 import datetime
 from time import time as ttime
+import logging
 
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
