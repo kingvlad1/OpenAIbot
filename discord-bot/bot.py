@@ -16,7 +16,7 @@ role_admin = id
 
 role_newbie = id
 role_constant = id
-role_old = 
+role_old = id
 role_eternalold = 1044959103316918354
 role_pseudoowner = 1044959814096269312
 
