@@ -262,3 +262,4 @@ except Exception as err:
     print('Discord bot token error')
     print(err)
     exit()
+print()
