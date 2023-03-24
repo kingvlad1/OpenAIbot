@@ -212,7 +212,7 @@ async def ask_davinci(ctx, prompt: discord.Option(str)):
             embed.set_footer(text=f"обробка зайняла {str(datetime.timedelta(seconds=elapsedtime))}")
             await ctx.followup.send(embed=embed)
 
-# DALLE2
+#DALLE2
 @imagegroup.command(name="generate", description="generate image")
 @commands.cooldown(1, 70, commands.BucketType.user)
 async def image_generate(ctx, prompt: discord.Option(str)):
