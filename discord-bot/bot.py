@@ -18,7 +18,7 @@ role_newbie = id
 role_constant = id
 role_old = id
 role_eternalold = id
-role_pseudoowner = 1044959814096269312
+role_pseudoowner = id
 
 channel_gpt = 1054106565663264809
 
