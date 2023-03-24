@@ -11,12 +11,12 @@ import logging
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
 # VALUES
-role_ban = 1054109349628358817
-role_admin = 1054002956493664268
+role_ban = id
+role_admin = id
 
-role_newbie = 973871427788873748
-role_constant = 974602932265811988
-role_old = 973718824174092288
+role_newbie = id
+role_constant = id
+role_old = 
 role_eternalold = 1044959103316918354
 role_pseudoowner = 1044959814096269312
 
