@@ -15,3 +15,5 @@ docker compose up
 
 - [Python](https://python.org)
 - [Docker](https://docker.com)
+
+# Thanks for using template by KingVlad!
