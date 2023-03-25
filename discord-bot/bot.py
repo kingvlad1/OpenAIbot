@@ -42,7 +42,7 @@ class GptButtons(discord.ui.View):
         self.question = question
         self.model = model
 
-    @discord.ui.button(label="Regenerate", emoji="♻️", style=discord.ButtonStyle.green)
+    @discord.ui.button(label="Regenerate", emoji="🔄", style=discord.ButtonStyle.green)
     async def rbutton_callback(self, _, interaction):
         if self.ctx.author.id == interaction.user.id:
             await interaction.response.defer()
@@ -117,7 +117,7 @@ async def member_block(ctx, member: discord.Member):
             await member.add_roles(ctx.guild.get_role(role_ban))
             await ctx.respond(f"{member.mention}/{member.name} заблокований", ephemeral=True)
         else:
-            await ctx.respond("у тебе недостатньо прав, щоб блокувати AI-BOT для користувачів", ephemeral=True)
+            await ctx.respond("У тебе недостатньо прав, щоб блокувати AI-BOT для користувачів", ephemeral=True)
 
 @bot.user_command(name="Unblock")
 async def member_unblock(ctx, member: discord.Member):
