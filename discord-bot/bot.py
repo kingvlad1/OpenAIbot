@@ -1,4 +1,4 @@
-# IMPORT LIBRARIES
+# IMPORT LIBRARIES FOR PROJECT!
 import discord
 from discord.ext import commands
 import os
