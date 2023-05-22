@@ -66,7 +66,7 @@ class GptButtons(discord.ui.View):
             await interaction.response.send_message("Вы не можете заново сгенерировать ответ на не ваш вопрос", ephemeral=True)
 '''
 
-# EVENTS
+# BOT EVENTS
 @bot.event
 async def on_ready():
     await bot.change_presence(status=discord.Status.online, activity=discord.Game('https://github.com/Sheudz/OpenAI-BOT'))
