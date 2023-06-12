@@ -7,7 +7,7 @@ import openai
 import datetime
 from time import time as ttime
 import logging
-
+#YOUR OPENAI KEY HERE
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
 # VALUES
