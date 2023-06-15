@@ -11,8 +11,8 @@ import logging
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
 # VALUES
-role_ban = id role
-role_admin = id role
+role_ban = id 
+role_admin = id 
 
 role_newbie = id
 role_constant = id
