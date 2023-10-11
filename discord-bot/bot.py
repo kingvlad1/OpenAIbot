@@ -258,6 +258,7 @@ async def uptime(ctx):
 
 try:
     bot.run(os.getenv("DISCORD_BOT_TOKEN"))
+    print('bot run')
 except Exception as err:
     print('Discord bot token error')
     print(err)
