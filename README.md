@@ -17,3 +17,5 @@ docker compose up
 - [Docker](https://docker.com)
 
 # Thanks for using template by KingVlad
+
+- [Telegram Channel](https://t.me/King_VLADlinks)
